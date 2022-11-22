@@ -16,3 +16,15 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown ol {
+  @apply list-decimal
+}
+
+.markdown ul {
+  @apply list-disc pl-8 max-w-5xl
+}
+
+.markdown code {
+  @apply bg-red-200 rounded px-2 shadow-sm;
+}
